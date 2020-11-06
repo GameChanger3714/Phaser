@@ -30,17 +30,7 @@ function create() {
   this.keys = this.input.keyboard.createCursorKeys();
 } 
 
-
-
 function update() {
-  this.heart = this.add.sprite(400, 300, "heart");
-  this.heart.displayHeight = 20;
-  this.heart.displayWidth = 20;
-
-  this.keys = this.input.keyboard.createCursorKeys();
-
-
-  this.heart
   if (this.keys.up.isDown) {
     this.heart.y -= 4;
   }  
