@@ -24,9 +24,9 @@ function preload() {
 }
 
 function create() {
-  const heart = this.add.sprite(400, 300, "heart");
-  heart.displayHeight = 20;
-  heart.displayWidth = 20;
+  this.heart = this.add.sprite(400, 300, "heart");
+  this.heart.displayHeight = 20;
+  this.heart.displayWidth = 20;
   this.keys = this.input.keyboard.createCursorKeys();
 } 
 
