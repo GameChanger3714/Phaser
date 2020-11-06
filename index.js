@@ -18,7 +18,6 @@ var config = {
 };
 
 var game = new Phaser.Game(config);
-this.heart
 
 function preload() {
   this.load.image("heart", "https://64.media.tumblr.com/avatar_6a16f384117d_128.pnj");
